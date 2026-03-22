@@ -3,7 +3,7 @@ const hours = document.querySelector('[data-value="hours"]');
 const minute = document.querySelector('[data-value="mins"]');
 const second = document.querySelector('[data-value="secs"]');
 
-const happeDay = new Date(2026, 9,30,7,30,0)
+const happeDay = new Date(2026, 9,30,7,0,0)
 
 
 const id = setInterval(() => {
@@ -16,7 +16,7 @@ const time = happeDay - currenDay
 if(time < 0){
   clearInterval(id)
   alert("З ДНЕМ НАРОДЖЕННЯ!!!")
-  document.body.style.backgroundColor = "gold";
+  document.body.style.backgroundColor = "gold"
   return;
 }
 
