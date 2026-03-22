@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/NazarBekerskij/datetime/issues"
   },
-  "homepage": "https://github.com/NazarBekerskij/datetime#readme",
+  "homepage": "https://github.com/NazarBekerskij/datetime",
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "parcel": "^2.16.4"
